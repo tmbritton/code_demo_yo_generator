@@ -34,6 +34,7 @@ var CodeDemoGenerator = yeoman.generators.Base.extend({
     this.copy('js/main.js', 'js/main.js');
     this.copy('js/vendor/jquery-1.11.0.min.js', 'js/vendor/jquery-1.11.0.min.js');
     this.copy('js/vendor/modernizr-2.6.2.min.js', 'js/vendor/modernizr-2.6.2.min.js');
+    this.copy('img/wfm-logo.png', 'img/wfm-logo.png');
   },
 
   runNpm: function(){
