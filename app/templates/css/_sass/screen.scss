@@ -1,8 +1,12 @@
 /* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
- */
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "normalize";
-@import "_partials/variables";
-@import "_partials/mixins";
-@import "_partials/layout";
+//@import "normalize";
+//@import "compass/utilities/general/clearfix";
+
+//@import "_partials/variables";
+//@import "_partials/mixins";
+//@import "_partials/layout";
+//@import "_partials/nav";
